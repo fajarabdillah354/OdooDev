@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<odoo>
+    <record id="group_azkacake_admin" model="res.groups">
+        <field name = "name">AzkaCake/Admin</field>
+    </record>
+
+    <record id="group_azkacake_pembeli" model="res.groups">
+        <field name = "name">AzkaCake/Pembeli</field>
+    </record>
+
+    <record id="group_azkacake_pembayaran" model="res.groups">
+        <field name = "name">AzkaCake/Pembayaran</field>
+    </record>
+
+    <record id="group_azkacake_product" model="res.groups">
+        <field name = "name">AzkaCake/Product</field>
+    </record>
+
+</odoo>

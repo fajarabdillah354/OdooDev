@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+azkacake_admin,azkacake_admin_test,model_data_admin,azkacake.group_azkacake_admin,1,1,1,1
+azkacake_pembeli,azkacake_pembeli_test,model_data_pembelian,azkacake.group_azkacake_pembeli,1,1,1,0
+azkacake_pembayaran,azkacake_pembayaran_test,model_data_pembayaran,azkacake.group_azkacake_pembayaran,1,1,1,0
+azkacake_product,azkacake_product_test,model_data_cake,azkacake.group_azkacake_product,1,1,0,0
+
+
