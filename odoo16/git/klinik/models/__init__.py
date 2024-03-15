@@ -1,1 +1,2 @@
-from . import models
+from . import dokter
+from . import pasient
