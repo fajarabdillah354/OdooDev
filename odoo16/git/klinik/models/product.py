@@ -74,6 +74,10 @@ class Apotek_Purchase_Line(models.Model):
             line.sub_total = line.harga_satuan * line.quantity
 
 
+class product_template(models.Model):
+    _inherit = "product.template"
+
+    product_description = fields.Char(string="Product Description")
 
 
 
