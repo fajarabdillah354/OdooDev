@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+klinik_patient_id,klinik_patient,model_klinic_patient,,1,1,1,1
+klinik_doctor_id,klinik_doctor,model_klinic_doctor,,1,1,1,1
+klinik_apotek_id,klinic_apotek,model_klinic_apotek,,1,1,1,1
+klinik_apotek_line_id,klinik_apotek_line,model_klinic_apotek_line,,1,1,1,1
+wizard_comment_id,wizard_comment,model_klinic_comment_wizard,,1,1,1,1
