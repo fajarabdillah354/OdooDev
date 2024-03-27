@@ -1,6 +1,6 @@
 from odoo import fields, models, api
 from odoo.exceptions import ValidationError
-
+from datetime import date
 
 
 
@@ -17,6 +17,7 @@ class Apotek_Klinic_Purchase(models.Model):
     ], default='draft')
     tanggal = fields.Date(string="Tanggal")
     klinic_apotek_ids = fields.One2many('klinic.apotek.line', 'klinic_apotek_id', string="Pembelian Obat")
+
 
     def action_confirm(self):
         for line in self:
@@ -55,6 +56,12 @@ class Apotek_Klinic_Purchase(models.Model):
             'type': 'ir.actions.act_window',
             'target': 'new'
         }
+
+    def func_delete_status(self):
+        klinik_apotek_obj = self.env['klinic.apotek'].search([('status', '=', 'draft')])
+        for line in klinik_apotek_obj:
+            line.unlink()
+        return True
 
 
 class Apotek_Purchase_Line(models.Model):
