@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <data>
+        <record id="pembelian_model_action" model="ir.actions.act_window">
+            <field name="name">Data Pembelian </field>
+            <field name="res_model">data.pembelian</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="pembayaran_model_action" model="ir.actions.act_window">
+            <field name="name">Data Pembayaran </field>
+            <field name="res_model">data.pembayaran</field>
+            <field name="view_mode">tree,form,search</field>
+        </record>
+
+        <record id="admin_model_action" model="ir.actions.act_window">
+            <field name="name">Data Admin </field>
+            <field name="res_model">data.admin</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="product_model_action" model="ir.actions.act_window">
+            <field name="name">Product</field>
+            <field name="res_model">data.cake</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+
+    </data>
+
+
+
+</odoo>

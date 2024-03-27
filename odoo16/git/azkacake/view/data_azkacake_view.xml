@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+<!--        DATA PEMBELIAN-->
+<!--        FORM VIEW-->
+        <record id="view_data_pembelian_form" model="ir.ui.view">
+            <field name="name">view.data.pembelian.form</field>
+            <field name="model">data.pembelian</field>
+            <field name="arch" type="xml">
+                <form string="Data Pembeli">
+                    <sheet>
+                        <group string="COSTUMER">
+                            <group>
+                                <field name="id_costumer"/>
+                                <field name="date_costumer"/>
+                                <field name="name_costumer"/>
+                                <field name="cake"/>
+                                <field name="city"/>
+                                <field name="state_id"/>
+                                <field name="active" invisible="1"/>
+                            </group>
+                            <group>
+                                <field name="price_unit"/>
+                                <field name="quantity"/>
+                                <field name="total"/>
+                                <button name="action_cancel" string="Cancelled" type="object" class="btn-primary"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <group>
+                                    <field name="tooping" placeholder="Extra Tooping"></field>
+                                    <field name="total_price_tooping" placeholder="Price Tooping" readonly="1"></field>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+
+            </field>
+        </record>
+
+<!--        TREE VIEW-->
+        <record id="view_data_pembelian_tree" model="ir.ui.view">
+            <field name="name">view.data.pembelian.tree</field>
+            <field name="model">data.pembelian</field>
+            <field name="arch" type="xml">
+                <tree string="Data Pembeli">
+                        <field name="id_costumer"/>
+                        <field name="name_costumer"/>
+                        <field name="date_costumer"/>
+                        <field name="cake"/>
+                        <field name="price_unit"/>
+                        <field name="quantity"/>
+                        <field name="total"/>
+                        <field name="city"/>
+                        <field name="state_id"/>
+                        <field name="active" attrs="{'invisible' : [('active', '=', True)]}"/>
+                </tree>
+            </field>
+        </record>
+
+<!--        SEARCH VIEW-->
+
+        <record id="view_data_pembelian_search" model="ir.ui.view">
+            <field name="name">view.data.pembelian.search</field>
+            <field name="model">data.pembelian</field>
+            <field name="arch" type="xml">
+                <search string="Search Pembelian">
+                    <field name="name_costumer"/>
+                    <filter string="Date" name="groupby_date" context="{'group_by' : 'date_costumer'}"/>
+                    <filter string="City Filter" name="filter_city_costumer" domain="[('city', '=', 'Bandung')]"/>
+                </search>
+            </field>
+        </record>
+
+
+
+<!--        DATA PEMBAYARAN VIEW-->
+        <!--        FORM VIEW-->
+        <record id="view_data_pembayaran_form" model="ir.ui.view">
+            <field name="name">view.data.pembayaran.form</field>
+            <field name="model">data.pembayaran</field>
+            <field name="arch" type="xml">
+                <form string="Data Pembayaran">
+                    <sheet>
+                        <group>
+                            <field name="partner_id_pembeli"/>
+                            <field name="partner_city"/>
+                            <field name="partner_state"/>
+                            <field name="date_payment"/>
+                            <field name="type_payment"/>
+                            <field name="keterangan"/>
+                        </group>
+                        <notebook>
+                            <page string="Payment">
+                                <group>
+                                    <field name="cash"/>
+                                    <field name="tf"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+<!--        TREE VIEW-->
+        <record id="view_data_pembayaran_tree" model="ir.ui.view">
+            <field name="name">view.data.pembayaran.tree</field>
+            <field name="model">data.pembayaran</field>
+            <field name="arch" type="xml">
+                <tree string="Data Pembayaran">
+                        <field name="partner_id_pembeli"/>
+                        <field name="partner_city"/>
+                        <field name="partner_state"/>
+                        <field name="date_payment"/>
+                        <field name="type_payment"/>
+                        <field name="keterangan"/>
+                </tree>
+                <search>
+                    <filter string="Filter Pembayaran" name="Filter_Lunas" domain="[('date_payment','=','isYes  ')]"></filter>
+                </search>
+            </field>
+        </record>
+
+
+
+<!--      DATA ADMIN VIEW-->
+
+<!--        FORM VIEW-->
+        <record id="view_data_admin_form" model="ir.ui.view">
+            <field name="name">view.data.admin.form</field>
+            <field name="model">data.admin</field>
+            <field name="arch" type="xml">
+                <form string="Data Admin">
+                    <sheet>
+                        <group>
+                            <field name="admin_name"/>
+                            <field name="id_admin"/>
+                            <field name="access_admin"/>
+                        </group>
+<!--                        <notebook>-->
+<!--                            <page string="Description">-->
+<!--                                <field name="description_cake"/>-->
+<!--                            </page>-->
+<!--                        </notebook>-->
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+<!--        TREE VIEW-->
+        <record id="view_data_admin_tree" model="ir.ui.view">
+            <field name="name">view.data.admin.tree</field>
+            <field name="model">data.admin</field>
+            <field name="arch" type="xml">
+                <tree string="Data Admin">
+                        <field name="admin_name"/>
+                        <field name="id_admin"/>
+                        <field name="access_admin"/>
+                </tree>
+            </field>
+        </record>
+
+
+<!--        DATA CAKE FORM-->
+<!--            FORM VIEW -->
+
+        <record id="view_data_product_form" model="ir.ui.view">
+            <field name="name">view.data.cake.form</field>
+            <field name="model">data.cake</field>
+            <field name="arch" type="xml">
+                <form string="Product">
+                    <sheet>
+                        <group>
+                            <field name="name_product"/>
+                            <field name="category_product"/>
+                            <field name="quantity_product"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+<!--        TREE VIEW-->
+        <record id="view_data_product_tree" model="ir.ui.view">
+            <field name="name">view.data.cake.tree</field>
+            <field name="model">data.cake</field>
+            <field name="arch" type="xml">
+                <tree string="Product">
+                        <field name="name_product"/>
+                        <field name="category_product"/>
+                        <field name="quantity_product"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <menuitem id="costumer_azkacake"
+                  name="AzkaCake Admin"
+                  web_icon="azkacake,static/description/icon2.png"
+                  action="admin_model_action"
+                  sequence="50"/>
+
+        <menuitem id="child1_costumer_azkacake"
+                  name="Pembelian"
+                  action="pembelian_model_action"
+                  parent="costumer_azkacake"
+                  sequence="10"/>
+
+
+        <menuitem id="child2_costumer_azkacake"
+                  name="Pembayaran"
+                  action="pembayaran_model_action"
+                  parent="costumer_azkacake"
+                  sequence="10"/>
+
+         <menuitem id="child3_costumer_azkacake"
+                  name="Product"
+                  action="product_model_action"
+                  parent="costumer_azkacake"
+                  sequence="10"/>
+
+
+
+
+
+    </data>
+</odoo>
+
