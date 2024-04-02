@@ -13,6 +13,7 @@
         'view/klinik_view.xml',
         'view/klinik_action_patient.xml',
         'view/klinik_menu_patient.xml',
+        'view/klinik_cron_apotek.xml'
     ],
     'demo':[],
     'application':True,
