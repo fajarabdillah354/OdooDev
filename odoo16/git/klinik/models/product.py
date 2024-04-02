@@ -3,21 +3,25 @@ from odoo.exceptions import ValidationError
 from datetime import date
 
 
-
 class Apotek_Klinic_Purchase(models.Model):
     _name = "klinic.apotek"
     _description = "Description Apotek"
 
     name = fields.Char(string="Name")
     status = fields.Selection([
-        ('draft','Draft'),
-        ('to_approve','To Approve'),
-        ('approved','Approved'),
-        ('done','Done')
+        ('draft', 'Draft'),
+        ('to_approve', 'To Approve'),
+        ('approved', 'Approved'),
+        ('done', 'Done')
     ], default='draft')
     tanggal = fields.Date(string="Tanggal")
     klinic_apotek_ids = fields.One2many('klinic.apotek.line', 'klinic_apotek_id', string="Pembelian Obat")
 
+    def func_delete_status_draft(self):
+        klinik_obj = self.env['klinic.apotek'].search([('status', '=', 'draft')])
+        for line in klinik_obj:
+            line.unlink()
+        return True
 
     def action_confirm(self):
         for line in self:
@@ -45,7 +49,6 @@ class Apotek_Klinic_Purchase(models.Model):
         domain = [('id', 'in', product_obj.ids)]
         return domain
 
-
     def action_help_wizard(self):
         self.ensure_one()
         return {
@@ -57,11 +60,6 @@ class Apotek_Klinic_Purchase(models.Model):
             'target': 'new'
         }
 
-    def func_delete_status(self):
-        klinik_apotek_obj = self.env['klinic.apotek'].search([('status', '=', 'draft')])
-        for line in klinik_apotek_obj:
-            line.unlink()
-        return True
 
 
 class Apotek_Purchase_Line(models.Model):
@@ -75,7 +73,7 @@ class Apotek_Purchase_Line(models.Model):
     harga_satuan = fields.Float(string="Harga Perstrip")
     sub_total = fields.Float(compute="_compute_subtotal", string="Sub Total")
 
-    @api.onchange('harga_satuan','quantity')
+    @api.onchange('harga_satuan', 'quantity')
     def _compute_subtotal(self):
         for line in self:
             line.sub_total = line.harga_satuan * line.quantity
@@ -85,6 +83,3 @@ class product_template(models.Model):
     _inherit = "product.template"
 
     product_description = fields.Char(string="Product Description")
-
-
-
