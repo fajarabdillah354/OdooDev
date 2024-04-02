@@ -23,6 +23,8 @@ class Apotek_Klinic_Purchase(models.Model):
             line.unlink()
         return True
 
+
+
     def action_confirm(self):
         for line in self:
             if line.status == 'approved':
