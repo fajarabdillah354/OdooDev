@@ -2,6 +2,8 @@ from odoo import fields, models, api
 from datetime import date
 from odoo.exceptions import ValidationError
 
+
+# CREATE MODUL KLINIC.PATIENT
 class Patient(models.Model):
     _name = "klinic.patient"
     _description = "Klinic Patient"
@@ -26,6 +28,7 @@ class Patient(models.Model):
     doctor_id = fields.Many2one('klinic.doctor', string="Dokter Penanggung Jawab")
 
 
+    # ADD WIDGET
     class wizard_comment(models.Model):
 
         _name = "klinic.comment.wizard"

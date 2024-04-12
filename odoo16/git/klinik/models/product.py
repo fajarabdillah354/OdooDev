@@ -81,6 +81,7 @@ class Apotek_Purchase_Line(models.Model):
             line.sub_total = line.harga_satuan * line.quantity
 
 
+# ADD field to other module(inherit)
 class product_template(models.Model):
     _inherit = "product.template"
 
