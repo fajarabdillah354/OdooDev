@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_resource_calendar_1" model="resource.calendar">
+            <field name="hours_per_day">08:00</field>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="schedule_type">Fixed</field>
+            <field name="overtime_calculation_id" ref=""/>
+        </record>
+    </data>
+</odoo>

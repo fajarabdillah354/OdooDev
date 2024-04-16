@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_department_contact_1" model="hr.contact">
+            <field></field>
+        </record>
+    </data>
+</odoo>

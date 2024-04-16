@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_resource_calendar_1" model="hr.payroll.structure.type">
+            <field name="">Employee</field>
+
+        </record>
+    </data>
+</odoo>
