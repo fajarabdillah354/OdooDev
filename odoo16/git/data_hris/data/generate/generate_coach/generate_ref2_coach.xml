@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="demo_ref2_coach_id_1" model="hr.employee">
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220750</field>
+            <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
+            <field name="department_id" ref="demo_department_id_1"/>
+            <field name="contract_id" ref="demo_contract_id_1"/>
+            <field name="job_id" ref="demo_contract_id_1"/>
+            <field name="grade_id" ref="demo_grade_id_1"/>
+<!--            <field name="parent_id" ref=""/>-->
+<!--            <field name="coach_id" ref=""/>-->
+        </record>
+    </data>
+</odoo>
