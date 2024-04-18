@@ -7,7 +7,6 @@
             <field name="hours_per_day">08:00</field>
             <field name="tz">Asia/Jakarta</field>
             <field name="schedule_type">Fixed</field>
-            <field name="overtime_calculation_id" ref=""/>
         </record>
     </data>
 </odoo>

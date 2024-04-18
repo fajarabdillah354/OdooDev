@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_employee_id_1" model="hr.employee.public">
+            <field name="name">Angelina Jolie</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220754</field>
+            <field name="work_email">angelinajolie@urbanjakarta.co.id</field>
+            <field name="department_id" ref="demo_department_id_1"/>
+            <field name="job_id" ref="demo_job_id_1"/>
+            <field name="parent_id" ref="demo_manager_id_1"/>
+            <field name="coach_id" ref="demo_coach_id_1"/>
+        </record>
+    </data>
+</odoo>

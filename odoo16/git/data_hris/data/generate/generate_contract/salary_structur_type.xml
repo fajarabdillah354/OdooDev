@@ -2,9 +2,9 @@
 
 <odoo>
     <data>
-        <record id="generate_resource_calendar_1" model="hr.payroll.structure.type">
-            <field name="">Employee</field>
-
+        <record id="generate_salary_structure_type_id_1" model="hr.payroll.structure.type">
+            <field name="name">Employee</field>
+            <field name="default_resource_calendar_id" ref="generate_resource_calendar_1"/>
         </record>
     </data>
 </odoo>
