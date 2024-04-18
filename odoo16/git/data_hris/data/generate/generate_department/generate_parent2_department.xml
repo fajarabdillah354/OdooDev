@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_base_department_1" model="hr.department">
+            <field name="name">Board of Directors</field>
+        </record>
+    </data>
+</odoo>

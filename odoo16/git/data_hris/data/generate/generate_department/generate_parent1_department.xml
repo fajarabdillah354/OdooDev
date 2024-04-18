@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="demo_parent2_department_id_1" model="hr.department">
+            <field name="name">Management</field>
+            <field name="manager_id" ref=""/>
+            <field name="parent_id" ref="generate_parent2_department_1"/>
+        </record>
+    </data>
+</odoo>

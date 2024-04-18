@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="parent_id_bpjs2_1" model="hr.payroll.structure">
+            <field name="name">Base + BPJS Kesehatan</field>
+            <field name="code">BASE_BPJS_KES</field>
+            <field name="parent_id" ref="parent_id_bpjs3_1"/>
+        </record>
+    </data>
+</odoo>

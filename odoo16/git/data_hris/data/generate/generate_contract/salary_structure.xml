@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_salary_structure_contact_1" model="hr.payroll.structure">
+            <field name="name">Base + BPJS Kesehatan + BPJS TK Full</field>
+            <field name="code">BASE_BPJS_KES_TKFULL</field>
+            <field name="parent_id" ref="parent_id_bpjs1"/>
+        </record>
+    </data>
+</odoo>
