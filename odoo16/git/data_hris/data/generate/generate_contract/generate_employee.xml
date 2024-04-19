@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_employee_id_1" model="hr.employee.public">
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220750</field>
+            <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_leonardo_department_id"/>
+            <field name="job_id" ref="generate_jobleonardo_id"/>
+        </record>
+    </data>
+</odoo>

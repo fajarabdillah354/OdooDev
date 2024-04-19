@@ -3,7 +3,7 @@
 
 <odoo>
     <data>
-        <record id="generate_hr_id_1" model="res.users">
+        <record id="generate_hr_leonardo_id" model="res.users">
             <field name="name">Leonardo DiCaprio</field>
             <field name="login">dean@tilabs.id</field>
             <field name="mobile">08128790332</field>
