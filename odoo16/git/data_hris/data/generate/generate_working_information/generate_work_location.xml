@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_working_location_leonardo_id" model="hr.work.location">
+            <field name="name">JGC Cleon Park Head Office</field>
+            <field name="address_id" ref="generate_my_company_leonardo_id"/>
+        </record>
+    </data>
+</odoo>

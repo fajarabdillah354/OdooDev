@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_company_leonardo_id" model="res.company">
+            <field name="partner_id" ref="generate_my_company_leonardo_id"/>
+            <field name="street">Indonesia</field>
+        </record>
+
+        <record id="generate_my_company_leonardo_id" model="res.partner">
+            <field name="street">Indonesia</field>
+            <field name="phone">081219220750</field>
+            <field name="email">dean@tilabs.id</field>
+        </record>
+
+
+    </data>
+</odoo>
