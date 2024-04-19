@@ -5,26 +5,9 @@
         <record id="generate_bpjs_leonardo" model="hr.payroll.structure">
             <field name="name">Base + BPJS Kesehatan + BPJS TK Full</field>
             <field name="code">BASE_BPJS_KES_TKFULL</field>
-            <field name="parent_id" ref="parent_id_bpjs2_1"/>
+            <field name="parent_id" ref="generate_bpjs_ref1_leonardo_id"/>
         </record>
 
 
-        <record id="generate_bpjs_ref1_leonardo" model="hr.payroll.structure">
-            <field name="name">Base + BPJS Kesehatan + BPJS TK no JP</field>
-            <field name="code">BASE_BPJS_KES_TKNOJP</field>
-            <field name="parent_id" ref="generate_bpjs_ref2_leonardo"/>
-        </record>
-
-
-        <record id="generate_bpjs_ref2_leonardo" model="hr.payroll.structure">
-            <field name="name">Base + BPJS Kesehatan</field>
-            <field name="code">BASE_BPJS_KES</field>
-            <field name="parent_id" ref="generate_bpjs_ref3_leonardo"/>
-        </record>
-
-        <record id="generate_bpjs_ref3_leonardo" model="hr.payroll.structure">
-            <field name="name">Base</field>
-            <field name="code">BASE</field>
-        </record>
     </data>
 </odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_bpjs_ref3_leonardo_id" model="hr.payroll.structure">
+            <field name="name">Base</field>
+            <field name="code">BASE</field>
+        </record>
+    </data>
+</odoo>
