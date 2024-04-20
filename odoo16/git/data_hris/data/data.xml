@@ -2,19 +2,45 @@
 
 <odoo>
     <data>
+
+
         <record id="view_demo_leonardo" model="hr.employee">
             <field name="name">Leonardo DiCaprio</field>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220750</field>
             <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
-            <field name="department_id" ref="generate_leonardo_department_id_1"/>
-<!--            <field name="contract_id" ref="demo_contract_id_1"/>-->
-            <field name="job_id" ref="demo_job_id_1"/>
-            <field name="position_id" ref="demo_position_id_1"/>
-            <field name="grade_id" ref="demo_grade_id_1"/>
-<!--            <field name="parent_id" ref="demo_manager_id_1"/>-->
-<!--            <field name="coach_id" ref="demo_coach_id_1"/>-->
+            <field name="department_id" ref="generate_department_leonardo_id"/>
+<!--            <field name="contract_id" ref="generate_contract_leonardo_id"/>-->
+            <field name="job_id" ref="generate_job_leonardo_id"/>
+<!--            <field name="position_id" ref="generate_position_leonardo_id"/>-->
+            <field name="grade_id" ref="generate_grade_leonardo_id"/>
+            <field name="address_id" ref="generate_company_leonardo_id"/>
+            <field name="work_location_id" ref="generate_company_leonardo_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_leonardo_id"/>
+            <field name="tz">Asia/Jakarta</field>
         </record>
+
+
+        <record id="view_demo_jenniferaniston" model="hr.employee">
+            <field name="name">Jennifer Aniston</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220772</field>
+            <field name="work_email">jenniferaniston@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_jenniferaniston_id"/>
+<!--            <field name="contract_id" ref="generate_contract_leonardo_id"/>-->
+            <field name="job_id" ref="generate_job_jenniferaniston_id"/>
+<!--            <field name="position_id" ref="generate_position_jenniferaniston_id"/>-->
+            <field name="grade_id" ref="generate_grade_jenniferaniston_id"/>
+            <field name="parent_id" ref="view_demo_leonardo"/>
+            <field name="coach_id" ref="view_demo_leonardo"/>
+            <field name="address_id" ref="generate_my_company_leonardo_id"/>
+            <field name="leave_manager_id" ref="generate_hr_leonardo_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_leonardo_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
 
 <!--        <record id="view_demo_data2" model="hr.employee">-->
 <!--            <field name="name">Brad Pitt</field>-->
