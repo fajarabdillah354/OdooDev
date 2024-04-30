@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<odoo>
+    <data>
+        <record id="morning_shift_1_id" model="resource.shift.codes">
+            <field name="name">Morning Shift</field>
+            <field name="shift_code">01</field>
+            <field name="shift_type">workday</field>
+            <field name="work_from">06.00</field>
+            <field name="work_to">15.00</field>
+            <field name="minimum_working_hour">09.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+
+        <record id="morning_shift_2_id" model="resource.shift.codes">
+            <field name="name">Morning Shift</field>
+            <field name="shift_code">02</field>
+            <field name="shift_type">workday</field>
+            <field name="work_from">14.00</field>
+            <field name="work_to">23.00</field>
+            <field name="minimum_working_hour">09.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+
+        <record id="morning_shift_3_id" model="resource.shift.codes">
+            <field name="name">Morning Shift</field>
+            <field name="shift_code">03</field>
+            <field name="shift_type">workday</field>
+            <field name="work_from">22.00</field>
+            <field name="work_to">07.00</field>
+            <field name="minimum_working_hour">09.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+
+<!--         <record id="off_shift_id" model="resource.shift.codes">-->
+<!--            <field name="name">Off</field>-->
+<!--            <field name="shift_code">OFF</field>-->
+<!--            <field name="shift_type">offday</field>-->
+<!--        </record>-->
+
+
+
+    </data>
+</odoo>

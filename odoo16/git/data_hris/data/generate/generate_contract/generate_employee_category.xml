@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<odoo>
-    <data>
-        <record id="generate_employee_leonardo_id" model="hr.contract.type">
-            <field name="name">Employee</field>
-        </record>
-    </data>
-</odoo>

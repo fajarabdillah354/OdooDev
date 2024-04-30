@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_employee_category_id" model="hr.contract.type">
+            <field name="name">Employee</field>
+        </record>
+
+<!--        <record id="generate_employee_category_jenniferaniston_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+<!--        <record id="generate_employee_category_charlizetheron_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+<!--        <record id="generate_employee_category_tomcruise_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+<!--        <record id="generate_employee_category_robertdowney_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+<!--        <record id="generate_employee_category_georgeclooney_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+<!--        <record id="generate_employee_category_tomhanks_id" model="hr.contract.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--        </record>-->
+
+
+
+    </data>
+</odoo>

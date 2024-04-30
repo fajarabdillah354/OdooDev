@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+
+<!--        Leonardo-->
+
+        <record id="generate_company_leonardo_id" model="res.company">
+            <field name="street">Indonesia</field>
+            <field name="phone">081219220750</field>
+            <field name="email">fajar@tilabs.id</field>
+<!--            <field name="address_id" ref="generate_my_company_leonardo_id"/>-->
+        </record>
+
+
+
+
+
+
+
+<!--        JENNIFER ANISTON-->
+
+<!--        <record id="generate_my_company_jenniferaniston_id" model="res.partner">-->
+<!--            <field name="street">Indonesia</field>-->
+<!--            <field name="phone">081219220750</field>-->
+<!--            <field name="email">dean@tilabs.id</field>-->
+<!--        </record>-->
+
+
+<!--        <record id="generate_company_jenniferaniston_id" model="hr.work.location">-->
+<!--            <field name="name">JGC Cleon Park Head Office</field>-->
+<!--            <field name="address_id" ref="generate_my_company_jenniferaniston_id"/>-->
+<!--        </record>-->
+
+
+
+
+
+
+    </data>
+</odoo>
