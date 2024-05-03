@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_grade_leonardo_id" model="hr.grade">
+            <field name="grade">VIII</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_jenniferaniston_id" model="hr.grade">
+            <field name="grade">VII</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_charlizetheron_id" model="hr.grade">
+            <field name="grade">V</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_tomcruise_id" model="hr.grade">
+            <field name="grade">VI</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_robertdowney_id" model="hr.grade">
+            <field name="grade">V</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_georgeclooney_id" model="hr.grade">
+            <field name="grade">V</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_tomhanks_id" model="hr.grade">
+            <field name="grade">VI</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_denzel_id" model="hr.grade">
+            <field name="grade">V</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_angelina_id" model="hr.grade">
+            <field name="grade">I</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_emma_id" model="hr.grade">
+            <field name="grade">IV</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_jenniferlawren_id" model="hr.grade">
+            <field name="grade">II</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_morgan_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_chrishem_id" model="hr.grade">
+            <field name="grade">I</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_johndepp_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_mattdamon_id" model="hr.grade">
+            <field name="grade">I</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_natalie_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_sandra_id" model="hr.grade">
+            <field name="grade">IV</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_bradpitt_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+         <record id="generate_grade_julia_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_meryl_id" model="hr.grade">
+            <field name="grade">IV</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_nicole_id" model="hr.grade">
+            <field name="grade">II</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_scarlett_id" model="hr.grade">
+            <field name="grade">III</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_grade_will_id" model="hr.grade">
+            <field name="grade">II</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+
+
+
+    </data>
+</odoo>

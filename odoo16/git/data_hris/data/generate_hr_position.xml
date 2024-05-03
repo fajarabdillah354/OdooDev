@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_position_leonardo_id" model="hr.position">
+            <field name="position">Director</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_jenniferaniston_id" model="hr.position">
+            <field name="position">Manager</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+         <record id="generate_position_charlizetheron_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_tomcruise_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_robertdowney_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_georgeclooney_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_tomhanks_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_denzel_id" model="hr.position">
+            <field name="position">Department Head</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_angelina_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_emma_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_jenniferlawren_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_morgan_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_chrishem_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_johndepp_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_mattdamon_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_natalie_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_sandra_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_bradpitt_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_julia_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_meryl_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_nicole_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_scarlett_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+        <record id="generate_position_will_id" model="hr.position">
+            <field name="position">Staff</field>
+            <field name="allowance">0.00</field>
+        </record>
+
+    </data>
+</odoo>

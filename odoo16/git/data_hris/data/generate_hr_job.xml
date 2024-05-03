@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_job_leonardo_id" model="hr.job">
+            <field name="name">Director</field>
+            <field name="department_id" ref="generate_department_leonardo_id"/>
+            <field name="position_id" ref="generate_position_leonardo_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_jenniferaniston_id" model="hr.job">
+            <field name="name">General Manager</field>
+            <field name="department_id" ref="generate_department_jenniferaniston_id"/>
+            <field name="position_id" ref="generate_position_jenniferaniston_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_charlizetheron_id" model="hr.job">
+            <field name="name">Head of Inventory Operations</field>
+            <field name="department_id" ref="generate_department_charlizetheron_id"/>
+            <field name="position_id" ref="generate_position_charlizetheron_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_tomcruise_id" model="hr.job">
+            <field name="name">Head of IT</field>
+            <field name="department_id" ref="generate_department_tomcruise_id"/>
+            <field name="position_id" ref="generate_position_tomcruise_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_robertdowney_id" model="hr.job">
+            <field name="name">Head of Finance</field>
+            <field name="department_id" ref="generate_department_robertdowney_id"/>
+            <field name="position_id" ref="generate_position_robertdowney_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+         <record id="generate_job_georgeclooney_id" model="hr.job">
+            <field name="name">Head of Sales</field>
+            <field name="department_id" ref="generate_department_georgeclooney_id"/>
+            <field name="position_id" ref="generate_position_georgeclooney_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_tomhanks_id" model="hr.job">
+            <field name="name">Head of Marketing</field>
+            <field name="department_id" ref="generate_department_tomhanks_id"/>
+            <field name="position_id" ref="generate_position_tomhanks_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_denzel_id" model="hr.job">
+            <field name="name">Head of Human Resource</field>
+            <field name="department_id" ref="generate_department_denzel_id"/>
+            <field name="position_id" ref="generate_position_denzel_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_angelina_id" model="hr.job">
+            <field name="name">Graphic Designer</field>
+            <field name="department_id" ref="generate_department_angelina_id"/>
+            <field name="position_id" ref="generate_position_angelina_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_emma_id" model="hr.job">
+            <field name="name">Business Analyst</field>
+            <field name="department_id" ref="generate_department_emma_id"/>
+            <field name="position_id" ref="generate_position_emma_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+         <record id="generate_job_jenniferlawren_id" model="hr.job">
+            <field name="name">Recruitment Staff</field>
+            <field name="department_id" ref="generate_department_jenniferlawren_id"/>
+            <field name="position_id" ref="generate_position_jenniferlawren_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_morgan_id" model="hr.job">
+            <field name="name">Developer</field>
+            <field name="department_id" ref="generate_department_morgan_id"/>
+            <field name="position_id" ref="generate_position_morgan_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_chrishem_id" model="hr.job">
+            <field name="name">Account Representative</field>
+            <field name="department_id" ref="generate_department_chrishem_id"/>
+            <field name="position_id" ref="generate_position_chrishem_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_johndepp_id" model="hr.job">
+            <field name="name">Accounting Staff</field>
+            <field name="department_id" ref="generate_department_johndepp_id"/>
+            <field name="position_id" ref="generate_position_johndepp_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_mattdamon_id" model="hr.job">
+            <field name="name">Content Writer</field>
+            <field name="department_id" ref="generate_department_mattdamon_id"/>
+            <field name="position_id" ref="generate_position_mattdamon_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_natalie_id" model="hr.job">
+            <field name="name">Account Manager</field>
+            <field name="department_id" ref="generate_department_natalie_id"/>
+            <field name="position_id" ref="generate_position_natalie_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_sandra_id" model="hr.job">
+            <field name="name">Payroll Administrator</field>
+            <field name="department_id" ref="generate_department_sandra_id"/>
+            <field name="position_id" ref="generate_position_sandra_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_bradpitt_id" model="hr.job">
+            <field name="name">Training and Development Staff</field>
+            <field name="department_id" ref="generate_department_bradpitt_id"/>
+            <field name="position_id" ref="generate_position_bradpitt_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+        <record id="generate_job_julia_id" model="hr.job">
+            <field name="name">Finance Staff</field>
+            <field name="department_id" ref="generate_department_julia_id"/>
+            <field name="position_id" ref="generate_position_julia_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+         <record id="generate_job_meryl_id" model="hr.job">
+            <field name="name">Social Media Coordinator</field>
+            <field name="department_id" ref="generate_department_meryl_id"/>
+            <field name="position_id" ref="generate_position_meryl_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_nicole_id" model="hr.job">
+            <field name="name">Quality Assurance</field>
+            <field name="department_id" ref="generate_department_nicole_id"/>
+            <field name="position_id" ref="generate_position_nicole_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_scarlett_id" model="hr.job">
+            <field name="name">Quality Assurance</field>
+            <field name="department_id" ref="generate_department_scarlett_id"/>
+            <field name="position_id" ref="generate_position_scarlett_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+        <record id="generate_job_will_id" model="hr.job">
+            <field name="name">Logistics Staff</field>
+            <field name="department_id" ref="generate_department_will_id"/>
+            <field name="position_id" ref="generate_position_will_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="no_of_recruitment">0</field>
+        </record>
+
+
+
+    </data>
+</odoo>

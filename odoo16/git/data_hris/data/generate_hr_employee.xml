@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+
+
+
+
+        <record id="generate_contract_leonardo_id" model="hr.contract">
+            <field name="name">Leonardo DiCaprio's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_leonardo_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_leonardo_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_leonardo_id"/>
+            <field name="position_id" ref="generate_position_leonardo_id"/>
+            <field name="grade_id" ref="generate_grade_leonardo_id"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">45000000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+<record id="view_demo_leonardo" model="hr.employee">
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220750</field>
+            <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_leonardo_id"/>
+            <field name="contract_id" ref="generate_contract_leonardo_id"/>
+            <field name="job_id" ref="generate_job_leonardo_id"/>
+            <field name="position_id" ref="generate_position_leonardo_id"/>
+            <field name="grade_id" ref="generate_grade_leonardo_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="generate_contract_jenniferaniston_id" model="hr.contract">
+            <field name="name">Jennifer Aniston's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_jenniferaniston_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_jenniferaniston_id"/>
+            <field name="position_id" ref="generate_position_jenniferaniston_id"/>
+            <field name="grade_id" ref="generate_grade_jenniferaniston_id"/>
+            <field name="parent_id" ref="view_demo_leonardo"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">20000000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_jenniferaniston" model="hr.employee">
+            <field name="name">Jennifer Aniston</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220772</field>
+            <field name="work_email">jenniferaniston@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_jenniferaniston_id"/>
+            <field name="contract_id" ref="generate_contract_jenniferaniston_id"/>
+            <field name="job_id" ref="generate_job_jenniferaniston_id"/>
+            <field name="position_id" ref="generate_position_jenniferaniston_id"/>
+            <field name="grade_id" ref="generate_grade_jenniferaniston_id"/>
+            <field name="parent_id" ref="view_demo_leonardo"/>
+            <field name="coach_id" ref="view_demo_leonardo"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_charlizetheron_id" model="hr.contract">
+            <field name="name">Charlize Theron's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_charlizetheron_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_charlizetheron_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_charlizetheron_id"/>
+            <field name="position_id" ref="generate_position_charlizetheron_id"/>
+            <field name="grade_id" ref="generate_grade_charlizetheron_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">10300000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_charlizetheron" model="hr.employee">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Charlize Theron</field>
+            <field name="mobile_phone">8128790343</field>
+            <field name="work_phone">81219220762</field>
+            <field name="work_email">charlizetheron@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_charlizetheron_id"/>
+            <field name="contract_id" ref="generate_contract_charlizetheron_id"/>
+            <field name="job_id" ref="generate_job_charlizetheron_id"/>
+            <field name="position_id" ref="generate_position_charlizetheron_id"/>
+            <field name="grade_id" ref="generate_grade_charlizetheron_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_tomcruise_id" model="hr.contract">
+            <field name="name">Tom Cruise's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_tomcruise_public"/>
+            <field name="date_start">2024-01-11</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_tomcruise_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_tomcruise_id"/>
+            <field name="position_id" ref="generate_position_tomcruise_id"/>
+            <field name="grade_id" ref="generate_grade_tomcruise_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">9800000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+       <record id="view_demo_tomcruise" model="hr.employee">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Tom Cruise</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220765</field>
+            <field name="work_email">denny@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_tomcruise_id"/>
+            <field name="contract_id" ref="generate_contract_tomcruise_id"/>
+            <field name="job_id" ref="generate_job_tomcruise_id"/>
+            <field name="position_id" ref="generate_position_tomcruise_id"/>
+            <field name="grade_id" ref="generate_grade_tomcruise_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Bangkok</field>
+        </record>
+
+
+        <record id="generate_contract_robertdowney_id" model="hr.contract">
+            <field name="name">Robert Downey Jr.'s Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_robertdowney_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_robertdowney_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_robertdowney_id"/>
+            <field name="position_id" ref="generate_position_robertdowney_id"/>
+            <field name="grade_id" ref="generate_grade_robertdowney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">11300000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_robertdowney" model="hr.employee">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Robert Downey Jr.</field>
+            <field name="mobile_phone">8128790340</field>
+            <field name="work_phone">81219220759</field>
+            <field name="work_email">robertdowneyjr@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_robertdowney_id"/>
+            <field name="contract_id" ref="generate_contract_robertdowney_id"/>
+            <field name="job_id" ref="generate_job_robertdowney_id"/>
+            <field name="position_id" ref="generate_position_robertdowney_id"/>
+            <field name="grade_id" ref="generate_grade_robertdowney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_georgeclooney_id" model="hr.contract">
+            <field name="name">George Clooney's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_georgeclooney_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_georgeclooney_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_georgeclooney_id"/>
+            <field name="position_id" ref="generate_position_georgeclooney_id"/>
+            <field name="grade_id" ref="generate_grade_georgeclooney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">10800000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+         <record id="view_demo_georgeclooney" model="hr.employee">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">George Clooney</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220769</field>
+            <field name="work_email">georgeclooney@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_georgeclooney_id"/>
+            <field name="contract_id" ref="generate_contract_georgeclooney_id"/>
+            <field name="job_id" ref="generate_job_georgeclooney_id"/>
+            <field name="position_id" ref="generate_position_georgeclooney_id"/>
+            <field name="grade_id" ref="generate_grade_georgeclooney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_tomhanks_id" model="hr.contract">
+            <field name="name">Tom Hanks's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_tomhanks_public"/>
+            <field name="date_start">2023-05-12</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_tomhanks_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_tomhanks_id"/>
+            <field name="position_id" ref="generate_position_tomhanks_id"/>
+            <field name="grade_id" ref="generate_grade_tomhanks_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">11000000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_tomhanks" model="hr.employee">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Tom Hanks</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220751</field>
+            <field name="work_email">tomhanks@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_tomhanks_id"/>
+            <field name="contract_id" ref="generate_contract_tomhanks_id"/>
+            <field name="job_id" ref="generate_job_tomhanks_id"/>
+            <field name="position_id" ref="generate_position_tomhanks_id"/>
+            <field name="grade_id" ref="generate_grade_tomhanks_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_denzel_id" model="hr.contract">
+            <field name="name">Denzel Washington's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_denzel_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_denzel_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_denzel_id"/>
+            <field name="position_id" ref="generate_position_denzel_id"/>
+            <field name="grade_id" ref="generate_grade_denzel_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">10000000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_denzel" model="hr.employee">
+            <field name="name">Denzel Washington</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220755</field>
+            <field name="work_email">denzelwashington@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_denzel_id"/>
+            <field name="contract_id" ref="generate_contract_denzel_id"/>
+            <field name="job_id" ref="generate_job_denzel_id"/>
+            <field name="position_id" ref="generate_position_denzel_id"/>
+            <field name="grade_id" ref="generate_grade_denzel_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_angelina_id" model="hr.contract">
+            <field name="name">Angelina Jolie's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_angelina_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_angelina_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_angelina_id"/>
+            <field name="position_id" ref="generate_position_angelina_id"/>
+            <field name="grade_id" ref="generate_grade_angelina_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5790000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_angelina" model="hr.employee">
+            <field name="name">Angelina Jolie</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220754</field>
+            <field name="work_email">angelinajolie@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_angelina_id"/>
+            <field name="contract_id" ref="generate_contract_angelina_id"/>
+            <field name="job_id" ref="generate_job_angelina_id"/>
+            <field name="position_id" ref="generate_position_angelina_id"/>
+            <field name="grade_id" ref="generate_grade_angelina_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_emma_id" model="hr.contract">
+            <field name="name">Emma Stone's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_emma_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_emma_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_emma_id"/>
+            <field name="position_id" ref="generate_position_emma_id"/>
+            <field name="grade_id" ref="generate_grade_emma_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5470000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+        <record id="view_demo_emma" model="hr.employee">
+            <field name="name">Emma Stone</field>
+            <field name="mobile_phone">8128790349</field>
+            <field name="work_phone">81219220768</field>
+            <field name="work_email">emmastone@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_emma_id"/>
+            <field name="contract_id" ref="generate_contract_emma_id"/>
+            <field name="job_id" ref="generate_job_emma_id"/>
+            <field name="position_id" ref="generate_position_emma_id"/>
+            <field name="grade_id" ref="generate_grade_emma_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise"/>
+            <field name="coach_id" ref="view_demo_tomcruise"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_jenniferlawren_id" model="hr.contract">
+            <field name="name">Jennifer Lawrence's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_jenniferlawren_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_jenniferlawren_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_jenniferlawren_id"/>
+            <field name="position_id" ref="generate_position_jenniferlawren_id"/>
+            <field name="grade_id" ref="generate_grade_jenniferlawren_id"/>
+            <field name="parent_id" ref="view_demo_denzel"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5010000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+        <record id="view_demo_jenniferlawren" model="hr.employee">
+            <field name="name">Jennifer Lawrence</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220756</field>
+            <field name="work_email">jenniferlawrence@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_jenniferlawren_id"/>
+            <field name="contract_id" ref="generate_contract_jenniferlawren_id"/>
+            <field name="job_id" ref="generate_job_jenniferlawren_id"/>
+            <field name="position_id" ref="generate_position_jenniferlawren_id"/>
+            <field name="grade_id" ref="generate_grade_jenniferlawren_id"/>
+            <field name="parent_id" ref="view_demo_denzel"/>
+            <field name="coach_id" ref="view_demo_denzel"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_morgan_id" model="hr.contract">
+            <field name="name">Morgan Freeman's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_morgan_public"/>
+            <field name="date_start">2024-11-15</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_morgan_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_morgan_id"/>
+            <field name="position_id" ref="generate_position_morgan_id"/>
+            <field name="grade_id" ref="generate_grade_morgan_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5760000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_morgan" model="hr.employee">
+            <field name="name">Morgan Freeman</field>
+            <field name="mobile_phone">8128790348</field>
+            <field name="work_phone">81219220767</field>
+            <field name="work_email">morganfreeman@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_morgan_id"/>
+            <field name="contract_id" ref="generate_contract_morgan_id"/>
+            <field name="job_id" ref="generate_job_morgan_id"/>
+            <field name="position_id" ref="generate_position_morgan_id"/>
+            <field name="grade_id" ref="generate_grade_morgan_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise"/>
+            <field name="coach_id" ref="view_demo_tomcruise"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_chrishem_id" model="hr.contract">
+            <field name="name">Chris Hemsworth's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_chrishem_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_chrishem_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_chrishem_id"/>
+            <field name="position_id" ref="generate_position_chrishem_id"/>
+            <field name="grade_id" ref="generate_grade_chrishem_id"/>
+            <field name="parent_id" ref="view_demo_georgeclooney"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5020000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_chrishem" model="hr.employee">
+            <field name="name">Chris Hemsworth</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220771</field>
+            <field name="work_email">chrishemsworth@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_chrishem_id"/>
+            <field name="contract_id" ref="generate_contract_chrishem_id"/>
+            <field name="job_id" ref="generate_job_chrishem_id"/>
+            <field name="position_id" ref="generate_position_chrishem_id"/>
+            <field name="grade_id" ref="generate_grade_chrishem_id"/>
+            <field name="parent_id" ref="view_demo_georgeclooney"/>
+            <field name="coach_id" ref="view_demo_georgeclooney"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="generate_contract_julia_id" model="hr.contract">
+            <field name="name">Julia Roberts's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_julia_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_julia_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_julia_id"/>
+            <field name="position_id" ref="generate_position_julia_id"/>
+            <field name="grade_id" ref="generate_grade_julia_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">4910000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_julia" model="hr.employee">
+            <field name="name">Julia Roberts</field>
+            <field name="mobile_phone">8128790341</field>
+            <field name="work_phone">81219220760</field>
+            <field name="work_email">juliaroberts@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_julia_id"/>
+            <field name="contract_id" ref="generate_contract_julia_id"/>
+            <field name="job_id" ref="generate_job_julia_id"/>
+            <field name="position_id" ref="generate_position_julia_id"/>
+            <field name="grade_id" ref="generate_grade_julia_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney"/>
+            <field name="coach_id" ref="view_demo_robertdowney"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_johndepp_id" model="hr.contract">
+            <field name="name">Johnny Depp's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_johndepp_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_johndepp_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_johndepp_id"/>
+            <field name="position_id" ref="generate_position_johndepp_id"/>
+            <field name="grade_id" ref="generate_grade_johndepp_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">4910000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_johndepp" model="hr.employee">
+            <field name="name">Johnny Depp</field>
+            <field name="mobile_phone">8128790342</field>
+            <field name="work_phone">81219220761</field>
+            <field name="work_email">johnnydepp@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_johndepp_id"/>
+            <field name="contract_id" ref="generate_contract_johndepp_id"/>
+            <field name="job_id" ref="generate_job_johndepp_id"/>
+            <field name="position_id" ref="generate_position_johndepp_id"/>
+            <field name="grade_id" ref="generate_grade_johndepp_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney"/>
+            <field name="coach_id" ref="view_demo_julia"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_mattdamon_id" model="hr.contract">
+            <field name="name">Matt Damon's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_mattdamon_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_mattdamon_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_mattdamon_id"/>
+            <field name="position_id" ref="generate_position_mattdamon_id"/>
+            <field name="grade_id" ref="generate_grade_mattdamon_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5570000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_mattdamon" model="hr.employee">
+            <field name="name">Matt Damon</field>
+            <field name="mobile_phone">8128790334</field>
+            <field name="work_phone">81219220753</field>
+            <field name="work_email">mattdamon@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_mattdamon_id"/>
+            <field name="contract_id" ref="generate_contract_mattdamon_id"/>
+            <field name="job_id" ref="generate_job_mattdamon_id"/>
+            <field name="position_id" ref="generate_position_mattdamon_id"/>
+            <field name="grade_id" ref="generate_grade_mattdamon_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_natalie_id" model="hr.contract">
+            <field name="name">Natalie Portman's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_natalie_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_natalie_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_natalie_id"/>
+            <field name="position_id" ref="generate_position_natalie_id"/>
+            <field name="grade_id" ref="generate_grade_natalie_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5230000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_natalie" model="hr.employee">
+            <field name="name">Natalie Portman</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220770</field>
+            <field name="work_email">natalieportman@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_natalie_id"/>
+            <field name="contract_id" ref="generate_contract_natalie_id"/>
+            <field name="job_id" ref="generate_job_natalie_id"/>
+            <field name="position_id" ref="generate_position_natalie_id"/>
+            <field name="grade_id" ref="generate_grade_natalie_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_sandra_id" model="hr.contract">
+            <field name="name">Sandra Bullock</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_sandra_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_sandra_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_sandra_id"/>
+            <field name="position_id" ref="generate_position_sandra_id"/>
+            <field name="grade_id" ref="generate_grade_sandra_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">4880000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_sandra" model="hr.employee">
+            <field name="name">Sandra Bullock</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220758</field>
+            <field name="work_email">sandrabullock@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_sandra_id"/>
+            <field name="contract_id" ref="generate_contract_sandra_id"/>
+            <field name="job_id" ref="generate_job_sandra_id"/>
+            <field name="position_id" ref="generate_position_sandra_id"/>
+            <field name="grade_id" ref="generate_grade_sandra_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="generate_contract_bradpitt_id" model="hr.contract">
+            <field name="name">Brad Pitt</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_bradpitt_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_bradpitt_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_bradpitt_id"/>
+            <field name="position_id" ref="generate_position_bradpitt_id"/>
+            <field name="grade_id" ref="generate_grade_bradpitt_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">6180000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_bradpitt" model="hr.employee">
+            <field name="name">Brad Pitt</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220757</field>
+            <field name="work_email">bradpitt@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_bradpitt_id"/>
+            <field name="contract_id" ref="generate_contract_bradpitt_id"/>
+            <field name="job_id" ref="generate_job_bradpitt_id"/>
+            <field name="position_id" ref="generate_position_bradpitt_id"/>
+            <field name="grade_id" ref="generate_grade_bradpitt_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_meryl_id" model="hr.contract">
+            <field name="name">Meryl Streep's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_meryl_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_meryl_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_meryl_id"/>
+            <field name="position_id" ref="generate_position_meryl_id"/>
+            <field name="grade_id" ref="generate_grade_meryl_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5380000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_meryl" model="hr.employee">
+            <field name="name">Meryl Streep</field>
+            <field name="mobile_phone">8128790333</field>
+            <field name="work_phone">81219220752</field>
+            <field name="work_email">merylstreep@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_meryl_id"/>
+            <field name="contract_id" ref="generate_contract_meryl_id"/>
+            <field name="job_id" ref="generate_job_meryl_id"/>
+            <field name="position_id" ref="generate_position_meryl_id"/>
+            <field name="grade_id" ref="generate_grade_meryl_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_nicole_id" model="hr.contract">
+            <field name="name">Nicole Kidman's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_nicole_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_nicole_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_nicole_id"/>
+            <field name="position_id" ref="generate_position_nicole_id"/>
+            <field name="grade_id" ref="generate_grade_nicole_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5990000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_nicole" model="hr.employee">
+            <field name="name">Nicole Kidman</field>
+            <field name="mobile_phone">8128790333</field>
+            <field name="work_phone">81219220752</field>
+            <field name="work_email">merylstreep@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_nicole_id"/>
+            <field name="contract_id" ref="generate_contract_nicole_id"/>
+            <field name="job_id" ref="generate_job_nicole_id"/>
+            <field name="position_id" ref="generate_position_nicole_id"/>
+            <field name="grade_id" ref="generate_grade_nicole_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="generate_contract_scarlett_id" model="hr.contract">
+            <field name="name">Scarlett Johansson's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_scarlett_public"/>
+            <field name="date_start">2023-11-16</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_scarlett_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_scarlett_id"/>
+            <field name="position_id" ref="generate_position_scarlett_id"/>
+            <field name="grade_id" ref="generate_grade_scarlett_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5320000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_scarlett" model="hr.employee">
+            <field name="name">Scarlett Johansson</field>
+            <field name="mobile_phone">8128790347</field>
+            <field name="work_phone">81219220766</field>
+            <field name="work_email">scarlettjohansson@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_scarlett_id"/>
+            <field name="contract_id" ref="generate_contract_scarlett_id"/>
+            <field name="job_id" ref="generate_job_scarlett_id"/>
+            <field name="position_id" ref="generate_position_scarlett_id"/>
+            <field name="grade_id" ref="generate_grade_scarlett_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="generate_contract_will_id" model="hr.contract">
+            <field name="name">Will Smith's Contract</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="employee_id" ref="view_demo_will_public"/>
+            <field name="date_start">2024-01-01</field>
+            <field name="structure_type_id" ref="generate_salary_structure_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="department_id" ref="generate_department_will_id"/>
+            <field name="type_id" ref="generate_employee_category_id"/>
+            <field name="struct_id" ref="sudo_hris_payroll.structure_bpjs_kesehatan_tkfull"/>
+            <field name="job_id" ref="generate_job_will_id"/>
+            <field name="position_id" ref="generate_position_will_id"/>
+            <field name="grade_id" ref="generate_grade_will_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="contract_type_id" ref="generate_employee_category_id"/>
+            <field name="hr_responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="wage">5840000</field>
+            <field name="hra">1500000</field>
+            <field name="da">1500000</field>
+            <field name="travel_allowance">750000</field>
+            <field name="meal_allowance">250000</field>
+            <field name="medical_allowance">1000000</field>
+            <field name="other_allowance">100000</field>
+            <field name="allowance_1">0</field>
+            <field name="allowance_2">0</field>
+            <field name="allowance_3">0</field>
+            <field name="allowance_4">0</field>
+            <field name="allowance_5">0</field>
+            <field name="allowance_6">0</field>
+            <field name="allowance_7">0</field>
+            <field name="allowance_8">0</field>
+            <field name="allowance_9">0</field>
+            <field name="allowance_10">0</field>
+        </record>
+
+
+        <record id="view_demo_will" model="hr.employee">
+            <field name="name">Will Smith</field>
+            <field name="mobile_phone">8128790344</field>
+            <field name="work_phone">81219220763</field>
+            <field name="work_email">willsmith@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_will_id"/>
+            <field name="contract_id" ref="generate_contract_will_id"/>
+            <field name="job_id" ref="generate_job_will_id"/>
+            <field name="position_id" ref="generate_position_will_id"/>
+            <field name="grade_id" ref="generate_grade_will_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks"/>
+            <field name="coach_id" ref="view_demo_tomhanks"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+    </data>
+</odoo>
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_department_leonardo_id" model="hr.department">
+            <field name="name">Board of Directors</field>
+        </record>
+
+        <record id="generate_department_jenniferaniston_id" model="hr.department">
+            <field name="name">Management</field>
+            <field name="parent_id" ref="generate_department_leonardo_id"/>
+        </record>
+
+        <record id="generate_department_charlizetheron_id" model="hr.department">
+            <field name="name">Inventory Operations Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_tomcruise_id" model="hr.department">
+            <field name="name">IT Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_robertdowney_id" model="hr.department">
+            <field name="name">Finance Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_georgeclooney_id" model="hr.department">
+            <field name="name">Sales Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_tomhanks_id" model="hr.department">
+            <field name="name">Marketing Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_denzel_id" model="hr.department">
+            <field name="name">Human Resources Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_angelina_id" model="hr.department">
+            <field name="name">Marketing Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_emma_id" model="hr.department">
+            <field name="name">IT Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_jenniferlawren_id" model="hr.department">
+            <field name="name">Human Resources Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_morgan_id" model="hr.department">
+            <field name="name">IT Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_chrishem_id" model="hr.department">
+            <field name="name">Sales Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_johndepp_id" model="hr.department">
+            <field name="name">Finance Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_mattdamon_id" model="hr.department">
+            <field name="name">Marketing Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_natalie_id" model="hr.department">
+            <field name="name">Sales Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_sandra_id" model="hr.department">
+            <field name="name">Human Resources Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_bradpitt_id" model="hr.department">
+            <field name="name">Human Resources Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_julia_id" model="hr.department">
+            <field name="name">Julia Roberts</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_meryl_id" model="hr.department">
+            <field name="name">Marketing Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_nicole_id" model="hr.department">
+            <field name="name">Inventory Operations Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_scarlett_id" model="hr.department">
+            <field name="name">IT Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+        <record id="generate_department_will_id" model="hr.department">
+            <field name="name">Inventory Operations Department</field>
+            <field name="parent_id" ref="generate_department_jenniferaniston_id"/>
+        </record>
+
+
+
+
+<!--        <record id="demo_department_id_1" model="hr.department">-->
+<!--            <field name="name">Marketing Department</field>-->
+<!--            <field name="parent_id" ref="generate_parent1_department_id_1"/>-->
+<!--        </record>-->
+
+    </data>
+</odoo>
