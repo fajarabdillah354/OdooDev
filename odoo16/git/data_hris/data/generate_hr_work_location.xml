@@ -8,40 +8,6 @@
             <field name="address_id" ref="base.main_partner"/>
         </record>
 
-<!--        <record id="generate_working_location_leonardo_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
-
-        <record id="generate_working_location_jenniferaniston_id" model="hr.work.location">
-            <field name="name">JGC Cleon Park Head Office</field>
-            <field name="address_id" ref="base.main_partner"/>
-        </record>
-
-<!--        <record id="generate_working_location_charlizetheron_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
-
-<!--        <record id="generate_working_location_tomcruise_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
-
-<!--        <record id="generate_working_location_robertdowney_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
-
-<!--        <record id="generate_working_location_georgeclooney_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
-
-<!--         <record id="generate_working_location_tomhanks_id" model="hr.work.location">-->
-<!--            <field name="name">JGC Cleon Park Head Office</field>-->
-<!--            <field name="address_id" ref="base.main_partner"/>-->
-<!--        </record>-->
 
     </data>
 </odoo>

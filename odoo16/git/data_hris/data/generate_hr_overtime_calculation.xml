@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<odoo>
+    <data>
+        <record id="calculation_overtime_id_1" model="hr.overtime.calculation">
+            <field name="name">Overtime Regular Calculation</field>
+            <field name="minimum_overtime_hours">00.00</field>
+            <field name="multiplier_a">1.50</field>
+            <field name="multiplier_b">2.00</field>
+            <field name="multiplier_c">3.00</field>
+            <field name="multiplier_d">4.00</field>
+            <field name="multiplier_e">0.00</field>
+            <field name="multiplier_f">0.00</field>
+            <field name="overtime_allowance_rounding">0.00</field>
+            <field name="wd_meal_minimum_hours">1.00</field>
+            <field name="wd_meal_amount">35.000</field>
+            <field name="wd_transportation_minimum_hours">1.00</field>
+            <field name="wd_transportation_amount">35.000</field>
+            <field name="old_meal_minimum_hours">1.00</field>
+            <field name="old_meal_minimum_hours">1.00</field>
+            <field name="old_transportation_minimum_hours">1.00</field>
+            <field name="old_transportation_amount">35.000</field>
+
+
+
+        </record>
+    </data>
+</odoo>

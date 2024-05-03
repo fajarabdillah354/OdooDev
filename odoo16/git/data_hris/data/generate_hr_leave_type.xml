@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="cuti_sakit_id" model="hr.leave.type">
+            <field name="name">Cuti Sakit</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">CS</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+        </record>
+
+        <record id="cuti_tahunan_id" model="hr.leave.type">
+            <field name="name">Cuti Tahunan</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">AL</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+        </record>
+
+        <record id="cuti_haid_id" model="hr.leave.type">
+            <field name="name">Cuti haid</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_angelina_id"/>
+            <field name="code">CH</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+        </record>
+
+        <record id="cuti_besar_id" model="hr.leave.type">
+            <field name="name">Cuti besar</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">CB</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_menikahkan_mengkhitankan_membaptiskan_0remaining_id" model="hr.leave.type">
+            <field name="name">Cuti menikahkan, mengkhitankan, atau membaptiskan anak (0 remaining out of 0 days)</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">MM</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_hamil_melahirkan_id" model="hr.leave.type">
+            <field name="name">Cuti hamil dan melahirkan</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">HM</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_meninggal_id" model="hr.leave.type">
+            <field name="name">Cuti anggota keluarga serumah meninggal dunia</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">SMD</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_keluarga_meninggal_id" model="hr.leave.type">
+            <field name="name">Cuti suami/istri, orang tua/mertua, anak/ menantu meninggal dunia</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">MD</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_karyawan_menikah_id" model="hr.leave.type">
+            <field name="name">Cuti karyawan menikah</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">KM</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_istri_melahirkan_id" model="hr.leave.type">
+            <field name="name">Cuti istri melahirkan atau mengalami keguguran</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">MG</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+        <record id="cuti_menikahkan_mengkhitankan_membaptiskan_id" model="hr.leave.type">
+            <field name="name">Cuti menikahkan, mengkhitankan, atau membaptiskan anak</field>
+            <field name="leave_validation_type">hr</field>
+            <field name="responsible_id" ref="generate_user_leonardo_id"/>
+            <field name="code">MA</field>
+            <field name="request_unit">day</field>
+            <field name="time_type">leave</field>
+            <field name="requires_allocation">yes</field>
+            <field name="employee_requests">yes</field>
+            <field name="allocation_validation_type">officer</field>
+            <field name="regular_allocation_expiry">365</field>
+        </record>
+
+
+
+
+    </data>
+</odoo>
