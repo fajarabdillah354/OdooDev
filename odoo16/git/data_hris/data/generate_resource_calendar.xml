@@ -3,13 +3,15 @@
 
 <odoo>
     <data>
-        <record id="generate_working_hours_leonardo_id" model="resource.calendar">
+        <record id="generate_working_hours_id" model="resource.calendar">
+            <field name="name">Office Hours</field>
             <field name="hours_per_day">08.00</field>
             <field name="tz">Asia/Jakarta</field>
             <field name="schedule_type">fixed</field>
         </record>
 
         <record id="generate_working_hours_jenniferaniston_id" model="resource.calendar">
+            <field name="name">Office Hours</field>
             <field name="hours_per_day">08.00</field>
             <field name="tz">Asia/Jakarta</field>
             <field name="schedule_type">fixed</field>

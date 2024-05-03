@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_resource_id_leonardo" model="resource.resource">
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="user_id" ref="generate_user_leonardo_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_jenniferaniston" model="resource.resource">
+            <field name="name">Jennifer Aniston</field>
+            <field name="user_id" ref="generate_user_jenniferaniston_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_charlizetheron" model="resource.resource">
+            <field name="name">Charlize Theron</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_robertdowney" model="resource.resource">
+            <field name="name">Robert Downey Jr.</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_tomcruise" model="resource.resource">
+            <field name="name">Tom Cruise</field>
+            <field name="user_id" ref="generate_user_tomcruise_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Bangkok</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_georgeclooney" model="resource.resource">
+            <field name="name">George Clooney</field>
+            <field name="user_id" ref="generate_user_georgeclooney_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_tomhanks" model="resource.resource">
+            <field name="name">Tom Hanks</field>
+            <field name="user_id" ref="generate_user_tomhanks_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_denzel" model="resource.resource">
+            <field name="name">Denzel Washington</field>
+            <field name="user_id" ref="generate_user_denzel_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+         <record id="generate_resource_id_angelina" model="resource.resource">
+            <field name="name">Angelina Jolie</field>
+            <field name="user_id" ref="generate_user_angelina_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+
+        <record id="generate_resource_id_emma" model="resource.resource">
+            <field name="name">Emma Stone</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_jenniferlawren" model="resource.resource">
+            <field name="name">Jennifer Lawrence</field>
+            <field name="user_id" ref="generate_user_jenniferlawren_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_morgan" model="resource.resource">
+            <field name="name">Morgan Freeman</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_chrishem" model="resource.resource">
+            <field name="name">Chris Hemsworth</field>
+            <field name="user_id" ref="generate_user_chrishem_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_johndepp" model="resource.resource">
+            <field name="name">Johnny Depp</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+         <record id="generate_resource_id_mattdamon" model="resource.resource">
+            <field name="name">Matt Damon</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_natalie" model="resource.resource">
+            <field name="name">Natalie Portman</field>
+            <field name="user_id" ref="generate_user_natalie_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_sandra" model="resource.resource">
+            <field name="name">Sandra Bullock</field>
+            <field name="user_id" ref="generate_user_sandra_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_bradpitt" model="resource.resource">
+            <field name="name">Brad Pitt</field>
+            <field name="user_id" ref="generate_user_bradpitt_id"/>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+
+        <record id="generate_resource_id_julia" model="resource.resource">
+            <field name="name">Julia Roberts</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_meryl" model="resource.resource">
+            <field name="name">Meryl Streep</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_nicole" model="resource.resource">
+            <field name="name">Nicole Kidman</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+        <record id="generate_resource_id_scarlett" model="resource.resource">
+            <field name="name">Scarlett Johansson</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+
+        <record id="generate_resource_id_will" model="resource.resource">
+            <field name="name">Will Smith</field>
+            <field name="resource_type">user</field>
+            <field name="calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+            <field name="time_efficiency">100.00</field>
+        </record>
+
+
+
+
+
+    </data>
+</odoo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="generate_salary_structure_id" model="hr.payroll.structure.type">
+            <field name="name">Employee</field>
+            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>
+        </record>
+
+<!--        <record id="generate_salary_structure_jenniferaniston_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+<!--        <record id="generate_salary_structure_charlizetheron_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+<!--        <record id="generate_salary_structure_tomcruise_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+<!--        <record id="generate_salary_structure_robertdowney_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+<!--        <record id="generate_salary_structure_georgeclooney_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+<!--        <record id="generate_salary_structure_tomhanks_id" model="hr.payroll.structure.type">-->
+<!--            <field name="name">Employee</field>-->
+<!--            <field name="default_resource_calendar_id" ref="resource.resource_calendar_std"/>-->
+<!--        </record>-->
+
+
+    </data>
+</odoo>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+
+
+        <record id="view_demo_leonardo_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220750</field>
+            <field name="resource_id" ref="generate_resource_id_leonardo"/>
+            <field name="user_id" ref="generate_user_leonardo_id"/>
+            <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_leonardo_id"/>
+            <field name="job_id" ref="generate_job_leonardo_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+        <record id="view_demo_jenniferaniston_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Jennifer Aniston</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220772</field>
+            <field name="resource_id" ref="generate_resource_id_jenniferaniston"/>
+            <field name="user_id" ref="generate_user_jenniferaniston_id"/>
+            <field name="work_email">jenniferaniston@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_jenniferaniston_id"/>
+            <field name="job_id" ref="generate_job_jenniferaniston_id"/>
+            <field name="parent_id" ref="view_demo_leonardo_public"/>
+            <field name="coach_id" ref="view_demo_leonardo_public"/>
+            <field name="leave_manager_id" ref="generate_user_leonardo_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_charlizetheron_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Charlize Theron</field>
+            <field name="mobile_phone">8128790343</field>
+            <field name="work_phone">81219220762</field>
+            <field name="resource_id" ref="generate_resource_id_charlizetheron"/>
+            <field name="work_email">charlizetheron@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_charlizetheron_id"/>
+            <field name="job_id" ref="generate_job_charlizetheron_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_tomcruise_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Tom Cruise</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220765</field>
+            <field name="resource_id" ref="generate_resource_id_tomcruise"/>
+            <field name="user_id" ref="generate_user_tomcruise_id"/>
+            <field name="work_email">denny@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_tomcruise_id"/>
+            <field name="job_id" ref="generate_job_tomcruise_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+
+        <record id="view_demo_robertdowney_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Robert Downey Jr.</field>
+            <field name="mobile_phone">8128790340</field>
+            <field name="work_phone">81219220759</field>
+            <field name="resource_id" ref="generate_resource_id_robertdowney"/>
+            <field name="work_email">robertdowneyjr@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_robertdowney_id"/>
+            <field name="job_id" ref="generate_job_robertdowney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="leave_manager_id" ref="generate_user_jenniferaniston_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+        <record id="view_demo_georgeclooney_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">George Clooney</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220769</field>
+            <field name="resource_id" ref="generate_resource_id_georgeclooney"/>
+            <field name="work_email">georgeclooney@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_georgeclooney_id"/>
+            <field name="job_id" ref="generate_job_georgeclooney_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+        <record id="view_demo_tomhanks_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Tom Hanks</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220751</field>
+            <field name="resource_id" ref="generate_resource_id_tomhanks"/>
+            <field name="work_email">tomhanks@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_tomhanks_id"/>
+            <field name="job_id" ref="generate_job_tomhanks_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+         <record id="view_demo_denzel_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Denzel Washington</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220755</field>
+            <field name="resource_id" ref="generate_resource_id_denzel"/>
+            <field name="work_email">tomhanks@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_denzel_id"/>
+            <field name="job_id" ref="generate_job_denzel_id"/>
+            <field name="parent_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="coach_id" ref="view_demo_jenniferaniston_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_angelina_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Angelina Jolie</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">081219220754</field>
+            <field name="resource_id" ref="generate_resource_id_angelina"/>
+            <field name="work_email">angelinajolie@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_angelina_id"/>
+            <field name="job_id" ref="generate_job_angelina_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_emma_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Emma Stone</field>
+            <field name="mobile_phone">8128790349</field>
+            <field name="work_phone">81219220768</field>
+            <field name="resource_id" ref="generate_resource_id_emma"/>
+            <field name="work_email">emmastone@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_emma_id"/>
+            <field name="job_id" ref="generate_job_emma_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise_public"/>
+            <field name="coach_id" ref="view_demo_tomcruise_public"/>
+            <field name="leave_manager_id" ref="generate_user_tomcruise_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_jenniferlawren_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Jennifer Lawrence</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220756</field>
+            <field name="resource_id" ref="generate_resource_id_jenniferlawren"/>
+            <field name="work_email">jenniferlawrence@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_jenniferlawren_id"/>
+            <field name="job_id" ref="generate_job_jenniferlawren_id"/>
+            <field name="parent_id" ref="view_demo_denzel_public"/>
+            <field name="coach_id" ref="view_demo_denzel_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_morgan_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Morgan Freeman</field>
+            <field name="mobile_phone">8128790348</field>
+            <field name="work_phone">81219220767</field>
+            <field name="resource_id" ref="generate_resource_id_morgan"/>
+            <field name="work_email">morganfreeman@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_morgan_id"/>
+            <field name="job_id" ref="generate_job_morgan_id"/>
+            <field name="parent_id" ref="view_demo_tomcruise_public"/>
+            <field name="coach_id" ref="view_demo_tomcruise_public"/>
+            <field name="leave_manager_id" ref="generate_user_tomcruise_id"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_chrishem_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Chris Hemsworth</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220771</field>
+            <field name="resource_id" ref="generate_resource_id_chrishem"/>
+            <field name="work_email">chrishemsworth@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_chrishem_id"/>
+            <field name="job_id" ref="generate_job_chrishem_id"/>
+            <field name="parent_id" ref="view_demo_georgeclooney_public"/>
+            <field name="coach_id" ref="view_demo_georgeclooney_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_julia_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Julia Roberts</field>
+            <field name="mobile_phone">8128790341</field>
+            <field name="work_phone">81219220760</field>
+            <field name="resource_id" ref="generate_resource_id_julia"/>
+            <field name="work_email">juliaroberts@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_julia_id"/>
+            <field name="job_id" ref="generate_job_julia_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney_public"/>
+            <field name="coach_id" ref="view_demo_robertdowney_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_johndepp_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Johnny Depp</field>
+            <field name="mobile_phone">8128790342</field>
+            <field name="work_phone">81219220761</field>
+            <field name="resource_id" ref="generate_resource_id_johndepp"/>
+            <field name="work_email">johnnydepp@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_johndepp_id"/>
+            <field name="job_id" ref="generate_job_johndepp_id"/>
+            <field name="parent_id" ref="view_demo_robertdowney_public"/>
+            <field name="coach_id" ref="view_demo_julia_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_mattdamon_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Matt Damon</field>
+            <field name="mobile_phone">8128790334</field>
+            <field name="work_phone">81219220753</field>
+            <field name="resource_id" ref="generate_resource_id_mattdamon"/>
+            <field name="work_email">mattdamon@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_mattdamon_id"/>
+            <field name="job_id" ref="generate_job_mattdamon_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_natalie_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Natalie Portman</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220770</field>
+            <field name="resource_id" ref="generate_resource_id_natalie"/>
+            <field name="work_email">natalieportman@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_natalie_id"/>
+            <field name="job_id" ref="generate_job_natalie_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_sandra_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Sandra Bullock</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220758</field>
+            <field name="resource_id" ref="generate_resource_id_sandra"/>
+            <field name="work_email">sandrabullock@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_sandra_id"/>
+            <field name="job_id" ref="generate_job_sandra_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_bradpitt_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Brad Pitt</field>
+            <field name="mobile_phone">08128790332</field>
+            <field name="work_phone">81219220757</field>
+            <field name="resource_id" ref="generate_resource_id_bradpitt"/>
+            <field name="work_email">bradpitt@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_bradpitt_id"/>
+            <field name="job_id" ref="generate_job_bradpitt_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+         <record id="view_demo_meryl_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Meryl Streep</field>
+            <field name="mobile_phone">8128790333</field>
+            <field name="work_phone">81219220752</field>
+            <field name="resource_id" ref="generate_resource_id_meryl"/>
+            <field name="work_email">merylstreep@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_meryl_id"/>
+            <field name="job_id" ref="generate_job_meryl_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+        <record id="view_demo_nicole_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Nicole Kidman</field>
+            <field name="mobile_phone">8128790345</field>
+            <field name="work_phone">81219220764</field>
+            <field name="resource_id" ref="generate_resource_id_nicole"/>
+            <field name="work_email">nicolekidman@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_nicole_id"/>
+            <field name="job_id" ref="generate_job_nicole_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_scarlett_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Scarlett Johansson</field>
+            <field name="mobile_phone">8128790347</field>
+            <field name="work_phone">81219220766</field>
+            <field name="resource_id" ref="generate_resource_id_scarlett"/>
+            <field name="work_email">scarlettjohansson@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_scarlett_id"/>
+            <field name="job_id" ref="generate_job_scarlett_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+        <record id="view_demo_will_public" model="hr.employee.public">
+            <field name="company_id" ref="base.main_company"/>
+            <field name="name">Will Smith</field>
+            <field name="mobile_phone">8128790344</field>
+            <field name="work_phone">81219220763</field>
+            <field name="resource_id" ref="generate_resource_id_will"/>
+            <field name="work_email">willsmith@urbanjakarta.co.id</field>
+            <field name="department_id" ref="generate_department_will_id"/>
+            <field name="job_id" ref="generate_job_will_id"/>
+            <field name="parent_id" ref="view_demo_tomhanks_public"/>
+            <field name="coach_id" ref="view_demo_tomhanks_public"/>
+            <field name="work_location_id" ref="generate_working_location_id"/>
+            <field name="resource_calendar_id" ref="generate_working_hours_id"/>
+            <field name="tz">Asia/Jakarta</field>
+        </record>
+
+
+
+    </data>
+</odoo>

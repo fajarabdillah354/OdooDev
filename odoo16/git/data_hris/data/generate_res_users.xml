@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+        <record id="generate_user_leonardo_id" model="res.users">
+            <field name="name">Leonardo DiCaprio</field>
+            <field name="login">dean@tilabs.id</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+            <record id="generate_user_jenniferaniston_id" model="res.users">
+            <field name="name">Jennifer Aniston</field>
+            <field name="login">jenniferaniston</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_tomcruise_id" model="res.users">
+            <field name="name">Tom Cruise</field>
+            <field name="login">denny@tilabs.id</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_georgeclooney_id" model="res.users">
+            <field name="name">George Clooney</field>
+            <field name="login">georgeclooney</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_tomhanks_id" model="res.users">
+            <field name="name">Tom Hanks</field>
+            <field name="login">tomhanks</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_denzel_id" model="res.users">
+            <field name="name">Denzel Washington</field>
+            <field name="login">denzelwashington</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+
+        <record id="generate_user_angelina_id" model="res.users">
+            <field name="name">Angelina Jolie</field>
+            <field name="login">angelinajolie</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_jenniferlawren_id" model="res.users">
+            <field name="name">Jennifer Lawrence</field>
+            <field name="login">jenniferlawrence</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_chrishem_id" model="res.users">
+            <field name="name">Chris Hemsworth</field>
+            <field name="login">chrishemsworth</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+        <record id="generate_user_natalie_id" model="res.users">
+            <field name="name">Natalie Portman</field>
+            <field name="login">natalieportman</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+         <record id="generate_user_sandra_id" model="res.users">
+            <field name="name">Sandra Bullock</field>
+            <field name="login">sandrabullock</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+         <record id="generate_user_bradpitt_id" model="res.users">
+            <field name="name">Brad Pitt</field>
+            <field name="login">bradpitt</field>
+            <field name="mobile">08128790332</field>
+        </record>
+
+
+
+
+    </data>
+</odoo>
