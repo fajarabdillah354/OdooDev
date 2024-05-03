@@ -7,6 +7,7 @@
             <field name="name">Leonardo DiCaprio</field>
             <field name="login">dean@tilabs.id</field>
             <field name="mobile">08128790332</field>
+            <field name="create_employee">True</field>
         </record>
 
             <record id="generate_user_jenniferaniston_id" model="res.users">
@@ -44,6 +45,8 @@
             <field name="name">Angelina Jolie</field>
             <field name="login">angelinajolie</field>
             <field name="mobile">08128790332</field>
+            <field name="create_employee">True</field>
+
         </record>
 
         <record id="generate_user_jenniferlawren_id" model="res.users">

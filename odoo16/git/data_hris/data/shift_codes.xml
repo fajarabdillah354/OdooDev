@@ -37,13 +37,15 @@
         </record>
 
 
-<!--         <record id="off_shift_id" model="resource.shift.codes">-->
-<!--            <field name="name">Off</field>-->
-<!--            <field name="shift_code">OFF</field>-->
-<!--            <field name="shift_type">offday</field>-->
-<!--        </record>-->
+         <record id="off_shift_id" model="resource.shift.codes">
+            <field name="name">Off</field>
+            <field name="shift_code">OFF</field>
+            <field name="shift_type">offday</field>
+        </record>
 
 
 
+
+        
     </data>
 </odoo>

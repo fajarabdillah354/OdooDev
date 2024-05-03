@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<odoo>
+    <data>
+
+        <record id="working_calendar_id_1" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_angelina"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+
+        <record id="working_calendar_id_2" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_bradpitt"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+        <record id="working_calendar_id_3" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_charlizetheron"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+        <record id="working_calendar_id_4" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_chrishem"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+        <record id="working_calendar_id_5" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_denzel"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+        <record id="working_calendar_id_6" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_emma"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+        <record id="working_calendar_id_7" model="resource.working.calendar">
+            <field name="name">Tahun Baru 2024 Masehi</field>
+            <field name="employee_id" ref="view_demo_georgeclooney"/>
+            <field name="working_schedule_id" ref="generate_working_hours_id"/>
+            <field name="work_date">2024-01-01</field>
+            <field name="day">monday</field>
+            <field name="work_from">00.00</field>
+            <field name="work_to">00.00</field>
+            <field name="minimum_working_hour">00.00</field>
+            <field name="late_tolerance">00.00</field>
+        </record>
+
+    </data>
+</odoo>
