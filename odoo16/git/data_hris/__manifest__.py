@@ -7,7 +7,7 @@
     'author':'sudoerp',
     'website':'www.odoo.com',
     'category':'',
-    'depends':['hr', 'sudo_hris_employee', 'sudo_hris_attendance', 'sudo_hris_payroll'],
+    'depends':['hr', 'sudo_hris_employee', 'sudo_hris_attendance', 'sudo_hris_payroll','multi_level_approval_configuration'],
     'data':[
         'data/shift_codes.xml',
         'data/generate_res_users.xml',
@@ -23,7 +23,7 @@
         'data/generate_hr_employee_public.xml',
         'data/generate_hr_employee.xml',
         'data/working_calendar.xml',
-        'data/generate_hr_leave_type.xml'
+        'data/generate_hr_leave_type.xml',
 
 
 
