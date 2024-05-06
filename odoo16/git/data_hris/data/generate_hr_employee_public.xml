@@ -11,7 +11,7 @@
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220750</field>
             <field name="resource_id" ref="generate_resource_id_leonardo"/>
-            <field name="user_id" ref="generate_user_leonardo_id"/>
+<!--            <field name="user_id" ref="generate_user_leonardo_id"/>-->
             <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
             <field name="department_id" ref="generate_department_leonardo_id"/>
             <field name="job_id" ref="generate_job_leonardo_id"/>
@@ -28,7 +28,7 @@
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220772</field>
             <field name="resource_id" ref="generate_resource_id_jenniferaniston"/>
-            <field name="user_id" ref="generate_user_jenniferaniston_id"/>
+<!--            <field name="user_id" ref="generate_user_jenniferaniston_id"/>-->
             <field name="work_email">jenniferaniston@urbanjakarta.co.id</field>
             <field name="department_id" ref="generate_department_jenniferaniston_id"/>
             <field name="job_id" ref="generate_job_jenniferaniston_id"/>
@@ -64,7 +64,7 @@
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220765</field>
             <field name="resource_id" ref="generate_resource_id_tomcruise"/>
-            <field name="user_id" ref="generate_user_tomcruise_id"/>
+<!--            <field name="user_id" ref="generate_user_tomcruise_id"/>-->
             <field name="work_email">denny@urbanjakarta.co.id</field>
             <field name="department_id" ref="generate_department_tomcruise_id"/>
             <field name="job_id" ref="generate_job_tomcruise_id"/>

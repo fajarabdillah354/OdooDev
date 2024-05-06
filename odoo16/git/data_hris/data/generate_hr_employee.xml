@@ -44,6 +44,7 @@
 
 <record id="view_demo_leonardo" model="hr.employee">
             <field name="name">Leonardo DiCaprio</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/leonardo.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220750</field>
             <field name="work_email">leonardodicaprio@urbanjakarta.co.id</field>
@@ -95,6 +96,7 @@
 
         <record id="view_demo_jenniferaniston" model="hr.employee">
             <field name="name">Jennifer Aniston</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/jennifer_aniston.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220772</field>
             <field name="work_email">jenniferaniston@urbanjakarta.co.id</field>
@@ -150,6 +152,7 @@
         <record id="view_demo_charlizetheron" model="hr.employee">
             <field name="company_id" ref="base.main_company"/>
             <field name="name">Charlize Theron</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/charlize_theron.jpeg"/>
             <field name="mobile_phone">8128790343</field>
             <field name="work_phone">81219220762</field>
             <field name="work_email">charlizetheron@urbanjakarta.co.id</field>
@@ -205,6 +208,7 @@
        <record id="view_demo_tomcruise" model="hr.employee">
             <field name="company_id" ref="base.main_company"/>
             <field name="name">Tom Cruise</field>
+           <field name="image_1920" type="base64" file="data_hris/static/img/tom_cruise.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220765</field>
             <field name="work_email">denny@urbanjakarta.co.id</field>
@@ -260,6 +264,7 @@
         <record id="view_demo_robertdowney" model="hr.employee">
             <field name="company_id" ref="base.main_company"/>
             <field name="name">Robert Downey Jr.</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/robert_downey.jpeg"/>
             <field name="mobile_phone">8128790340</field>
             <field name="work_phone">81219220759</field>
             <field name="work_email">robertdowneyjr@urbanjakarta.co.id</field>
@@ -315,6 +320,7 @@
          <record id="view_demo_georgeclooney" model="hr.employee">
             <field name="company_id" ref="base.main_company"/>
             <field name="name">George Clooney</field>
+             <field name="image_1920" type="base64" file="data_hris/static/img/georgeclooney.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220769</field>
             <field name="work_email">georgeclooney@urbanjakarta.co.id</field>
@@ -370,6 +376,7 @@
         <record id="view_demo_tomhanks" model="hr.employee">
             <field name="company_id" ref="base.main_company"/>
             <field name="name">Tom Hanks</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/tomhanks.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220751</field>
             <field name="work_email">tomhanks@urbanjakarta.co.id</field>
@@ -424,6 +431,7 @@
 
         <record id="view_demo_denzel" model="hr.employee">
             <field name="name">Denzel Washington</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/denzel.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220755</field>
             <field name="work_email">denzelwashington@urbanjakarta.co.id</field>
@@ -478,6 +486,7 @@
 
         <record id="view_demo_angelina" model="hr.employee">
             <field name="name">Angelina Jolie</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/angelina_jolie.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">081219220754</field>
             <field name="work_email">angelinajolie@urbanjakarta.co.id</field>
@@ -531,6 +540,7 @@
 
         <record id="view_demo_emma" model="hr.employee">
             <field name="name">Emma Stone</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/emma.jpeg"/>
             <field name="mobile_phone">8128790349</field>
             <field name="work_phone">81219220768</field>
             <field name="work_email">emmastone@urbanjakarta.co.id</field>
@@ -584,6 +594,7 @@
 
         <record id="view_demo_jenniferlawren" model="hr.employee">
             <field name="name">Jennifer Lawrence</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/lawren.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220756</field>
             <field name="work_email">jenniferlawrence@urbanjakarta.co.id</field>
@@ -638,6 +649,7 @@
 
         <record id="view_demo_morgan" model="hr.employee">
             <field name="name">Morgan Freeman</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/morgan.jpeg"/>
             <field name="mobile_phone">8128790348</field>
             <field name="work_phone">81219220767</field>
             <field name="work_email">morganfreeman@urbanjakarta.co.id</field>
@@ -692,6 +704,7 @@
 
         <record id="view_demo_chrishem" model="hr.employee">
             <field name="name">Chris Hemsworth</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/chrishem.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220771</field>
             <field name="work_email">chrishemsworth@urbanjakarta.co.id</field>
@@ -745,6 +758,7 @@
 
         <record id="view_demo_julia" model="hr.employee">
             <field name="name">Julia Roberts</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/julia.jpeg"/>
             <field name="mobile_phone">8128790341</field>
             <field name="work_phone">81219220760</field>
             <field name="work_email">juliaroberts@urbanjakarta.co.id</field>
@@ -799,6 +813,7 @@
 
         <record id="view_demo_johndepp" model="hr.employee">
             <field name="name">Johnny Depp</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/johndepp.jpeg"/>
             <field name="mobile_phone">8128790342</field>
             <field name="work_phone">81219220761</field>
             <field name="work_email">johnnydepp@urbanjakarta.co.id</field>
@@ -853,6 +868,7 @@
 
         <record id="view_demo_mattdamon" model="hr.employee">
             <field name="name">Matt Damon</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/mattdamon.jpeg"/>
             <field name="mobile_phone">8128790334</field>
             <field name="work_phone">81219220753</field>
             <field name="work_email">mattdamon@urbanjakarta.co.id</field>
@@ -907,6 +923,7 @@
 
         <record id="view_demo_natalie" model="hr.employee">
             <field name="name">Natalie Portman</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/natalie.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220770</field>
             <field name="work_email">natalieportman@urbanjakarta.co.id</field>
@@ -961,6 +978,7 @@
 
         <record id="view_demo_sandra" model="hr.employee">
             <field name="name">Sandra Bullock</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/sandra.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220758</field>
             <field name="work_email">sandrabullock@urbanjakarta.co.id</field>
@@ -1014,6 +1032,7 @@
 
         <record id="view_demo_bradpitt" model="hr.employee">
             <field name="name">Brad Pitt</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/bradpitt.jpeg"/>
             <field name="mobile_phone">08128790332</field>
             <field name="work_phone">81219220757</field>
             <field name="work_email">bradpitt@urbanjakarta.co.id</field>
@@ -1068,6 +1087,7 @@
 
         <record id="view_demo_meryl" model="hr.employee">
             <field name="name">Meryl Streep</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/meryl.jpeg"/>
             <field name="mobile_phone">8128790333</field>
             <field name="work_phone">81219220752</field>
             <field name="work_email">merylstreep@urbanjakarta.co.id</field>
@@ -1122,6 +1142,7 @@
 
         <record id="view_demo_nicole" model="hr.employee">
             <field name="name">Nicole Kidman</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/nicole.jpeg"/>
             <field name="mobile_phone">8128790333</field>
             <field name="work_phone">81219220752</field>
             <field name="work_email">merylstreep@urbanjakarta.co.id</field>
@@ -1176,6 +1197,7 @@
 
         <record id="view_demo_scarlett" model="hr.employee">
             <field name="name">Scarlett Johansson</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/scarlett.jpeg"/>
             <field name="mobile_phone">8128790347</field>
             <field name="work_phone">81219220766</field>
             <field name="work_email">scarlettjohansson@urbanjakarta.co.id</field>
@@ -1229,6 +1251,7 @@
 
         <record id="view_demo_will" model="hr.employee">
             <field name="name">Will Smith</field>
+            <field name="image_1920" type="base64" file="data_hris/static/img/will.jpeg"/>
             <field name="mobile_phone">8128790344</field>
             <field name="work_phone">81219220763</field>
             <field name="work_email">willsmith@urbanjakarta.co.id</field>
